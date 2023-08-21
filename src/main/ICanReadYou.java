@@ -22,7 +22,6 @@ public class ICanReadYou {
 
         int[] userInput = new int[5];
 
-        // isPlayActive = userInputForPlay.contains("Yes") || userInputForPlay.contains("yes") || userInputForPlay.contains("Y") || userInputForPlay.contains("y") || userInputForPlay.contains("True") || userInputForPlay.contains("true") || userInputForPlay.contains("T") || userInputForPlay.contains("t") || userInputForPlay.contains("1") || userInputForPlay.contains("one");
         isPlayActive = essentials.validateIfUserWantsToPlay(userInputForPlay);
 
         while (isPlayActive) {
